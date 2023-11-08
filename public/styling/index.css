@@ -1,3 +1,8 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
 .body {
     background-color: black;
 }
@@ -5,7 +10,22 @@
 
 .navbar {
     background: #b15108;
+    padding: 22px 0px;
+    /*background-color: transparent;*/
+    border-bottom: none;
+    font-size: 15px;
+    font-weight: bold;
 }
+
+.navbar ul li a:hover {
+    color: aqua;
+}
+
+
+.navbar-nav li.nav-item:not(:last-child) {
+    margin-right: 50px; 
+}
+
 
 .hmpg-img {
     background: url('IMK Web/public/images/gambarhmpg.jpg') no-repeat center center fixed;
