@@ -1,0 +1,66 @@
+.body {
+    background-color: black;
+}
+
+
+.navbar {
+    background: #b15108;
+}
+
+.hmpg-img {
+    background: url('IMK Web/public/images/gambarhmpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-hmpg-about {
+    background: #CCB6A2;
+}
+
+.hmpg-about-img {
+    justify-content: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.title-about-text1,
+.title-about-text2 {
+    font-family: Raleway;
+    font-size: 40px;
+}
+
+.title-about-text1 {
+    text-align: left;
+}
+
+.title-about-text2 {
+    text-align: right;
+}
+
+.hmpg-about-text1,
+.hmpg-about-text2 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hmpg-about-text1 {
+    text-align: left;
+}
+
+.hmpg-about-text2 {
+    text-align: right;
+}
+
+.container-article {
+    background: #CCB6A2;
+    width: 1440px;
+    height: 641px;
+    flex-shrink: 0;
+}
