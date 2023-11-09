@@ -1,86 +1,108 @@
-*{
-    margin : 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .body {
-    background-color: black;
+  background-color: transparent;
 }
 
-
+/*NAVBAR*/
 .navbar {
-    background: #b15108;
-    padding: 22px 0px;
-    /*background-color: transparent;*/
-    border-bottom: none;
-    font-size: 15px;
-    font-weight: bold;
+  padding: 22px 0px;
+  background: #dbcaba00;
+  border-bottom: none;
+}
+
+.navbar ul li a{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  font-family: Raleway;
+  margin-right: 50px;
 }
 
 .navbar ul li a:hover {
-    color: aqua;
+  color: #ffffff;
+  text-decoration-line: underline;
+  background-color: #00000018;
+  border-radius: 10px;
+  font-size: 23px;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: rgba(160, 95, 31, 0.243)
 }
 
 
-.navbar-nav li.nav-item:not(:last-child) {
-    margin-right: 50px; 
+
+/*SLIDER*/
+.slider {
+  width: 100%;
+  height: 700px;
+  background: url(../images/hmpg2.jpg), lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+/*HOMEPAGE ABOUT*/
 
 .hmpg-img {
-    background: url('IMK Web/public/images/gambarhmpg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
+  background: url("IMK Web/public/images/gambarhmpg.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  height: 100vh;
 }
 
 .container-hmpg-about {
-    background: #CCB6A2;
+  background: #ccb6a2;
 }
 
 .hmpg-about-img {
-    justify-content: center;
-    display: flex;
-    flex-shrink: 0;
+  justify-content: center;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .title-about-text1,
 .title-about-text2 {
-    font-family: Raleway;
-    font-size: 40px;
+  font-family: Raleway;
+  font-size: 40px;
 }
 
 .title-about-text1 {
-    text-align: left;
+  text-align: left;
 }
 
 .title-about-text2 {
-    text-align: right;
+  text-align: right;
 }
 
 .hmpg-about-text1,
 .hmpg-about-text2 {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    color: #000;
-    font-family: Raleway;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .hmpg-about-text1 {
-    text-align: left;
+  text-align: left;
 }
 
 .hmpg-about-text2 {
-    text-align: right;
+  text-align: right;
 }
 
 .container-article {
-    background: #CCB6A2;
-    width: 1440px;
-    height: 641px;
-    flex-shrink: 0;
+  background: #ccb6a2;
+  width: 1440px;
+  height: 641px;
+  flex-shrink: 0;
 }
