@@ -9,7 +9,6 @@
 
 /*NAVBAR*/
 .navbar {
-  padding: 22px 0px;
   background: #dbcaba00;
   border-bottom: none;
 }
@@ -48,21 +47,17 @@
 
 /*HOMEPAGE ABOUT*/
 
-.hmpg-img {
-  background: url("IMK Web/public/images/gambarhmpg.jpg") no-repeat center
-    center fixed;
-  background-size: cover;
-  height: 100vh;
-}
-
 .container-hmpg-about {
   background: #ccb6a2;
+  justify-content: center;
 }
 
-.hmpg-about-img {
-  justify-content: center;
-  display: flex;
-  flex-shrink: 0;
+.img-custom1{
+  border-radius: 100px;
+}
+
+.img-custom2{
+  border-radius: 100px;
 }
 
 .title-about-text1,
@@ -100,6 +95,24 @@
   text-align: right;
 }
 
+.btn.btn-custom1,
+.btn.btn-custom2 {
+  border-radius: 45px;
+  background: #735D57;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+}
+.btn.btn-custom1 {
+ transform: translateX(200PX);
+}
+
+.btn.btn-custom2 {
+  transform: translateX(200PX);
+}
+
+
+/*HOMEPAGE ARTICLE*/
 .container-article {
   background: #ccb6a2;
   width: 1440px;
