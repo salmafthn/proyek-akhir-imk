@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.container_1{
+    background-color: #000000;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    width: 1432px;
+    height: 720px;
+    left: 50px;
+    top: 40px;
+    background: #DACAC2;
+    border-radius: 50px;
+}
+h1{
+    position: absolute;
+    color: #000000;
+    left: 800px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.delete {
+    position: absolute;
+    font-size: 40px;
+    left: 70px;
+    top: 55px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    z-index: 10;
+}
+
+.help a{
+    position: absolute;
+    font-size: 16px;
+    font-style: italic;
+    right: 40px;
+    top: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    z-index: 10;
+}
+
+.img1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 170px;
+    top: 130px;
+}
+
+span{
+    position: absolute;
+    font-size: 24px;
+    color: #000000;
+    left: 175px;
+    top: 550px;
+    font-family: fantasy;
+}
+
+.input-box{
+    position: absolute;
+    left: 800px;
+    top: 130px;
+    background: #B19687;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 45px 20px  20px;
+}
+.input-box input::placeholder{
+    color:#000000;
+}
+
+.input-box4{
+    position: absolute;
+    left: 1080px;
+    top: 130px;
+    background: #B19687;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.input-box4 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 45px 20px  20px;
+}
+
+.input-box4 input::placeholder{
+    color:#000000;
+}
+
+.input-box1{
+    position: absolute;
+    background: #B19687;
+    left: 800px;
+    top: 210px;
+    width: 550px;
+    height: 60px;
+    border-radius: 10px;
+    z-index: 1111;
+}
+
+.input-box1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 45px 20px  60px;
+}
+
+.input-box1 input::placeholder{
+    color:#000000;
+}
+
+.input-box1 i {
+    position: absolute;
+    left: 20px ;
+    top:  50% ;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+
+.input-box2{
+    position: absolute;
+    background: #B19687;
+    left: 800px;
+    top: 290px;
+    width: 550px;
+    height: 60px;
+    border-radius: 10px;
+    z-index: 1111;
+}
+
+.input-box2 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 45px 20px  60px;
+}
+
+.input-box2 input::placeholder{
+    color:#000000;
+}
+
+.input-box2 i {
+    position: absolute;
+    left: 20px ;
+    top:  50% ;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.hide i{
+    position: absolute;
+    right: 110px;
+    top: 307px;
+    font-size: 24px;
+    z-index: 1115;
+}
+
+.input-box3{
+    position: absolute;
+    background: #B19687;
+    left: 800px;
+    top: 370px;
+    width: 550px;
+    height: 60px;
+    border-radius: 10px;
+    z-index: 1111;
+}
+
+.input-box3 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 45px 20px  60px;
+}
+
+.input-box3 input::placeholder{
+    color:#000000;
+}
+
+.input-box3 i {
+    position: absolute;
+    left: 20px ;
+    top:  50% ;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.hide1 i{
+    position: absolute;
+    right: 110px;
+    top: 387px;
+    font-size: 24px;
+    z-index: 1115;
+}
+
+
+.term_and_policy{
+    position: absolute;
+    left: 820px;
+    top: 450px;
+    z-index: 1200;
+    font-size: 18px;
+}
+
+.term_and_policy a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 825px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.login_with_facebook{
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    background: #B19687;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    padding-right: 30px;
+    color: #000000;
+}
+
+.login_with_facebook i{
+    position: absolute;
+    left: 20px ;
+    top:  50% ;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.login_with_facebook span{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 60px ;
+    top:  30px ;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #000000;
+    font-weight: 100;
+}
+
+.login_with_google{
+    position: absolute;
+    left: 1080px;
+    top: 500px;
+    background: #B19687;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.login_with_google i{
+    position: absolute;
+    left: 20px ;
+    top:  50% ;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #000000;
+}
+
+.login_with_google span{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 60px ;
+    top:  30px ;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #000000;
+    font-weight: 100;
+}
+
+.signup_btn{
+    position: absolute;
+    left: 880px;
+    top: 580px;
+    background: #B19687;
+    width: 400px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px ;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.login_link span{
+    position: absolute;
+    left: 980px;
+    top: 645px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+}
