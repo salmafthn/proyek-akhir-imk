@@ -12,11 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
-
+<body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
-        <div class="container-fluid">
+        <div class="container-fluid px-4 mx-4">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,36 +24,46 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><p>Home</p></a>
+                        <a class="nav-link" href="#">
+                            <p>Home</p>
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false"><p>Service</p></a>
+                            aria-expanded="false">
+                            <p>Service</p>
+                        </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><p>Restaurant</p>
-                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <p>Restaurant</p>
+                                </a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#"><p>Partner</p></a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    <p>Partner</p>
+                                </a></li>
                         </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><p>About us</p></a>
+                        <a class="nav-link" href="#">
+                            <p>About us</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><p>Help</p></a>
+                        <a class="nav-link" href="#">
+                            <p>Help</p>
+                        </a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav m-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav-custom1" href="#">Log in</a>
+                        <a class="nav-link nav-custom1" href="#"><p>Log in</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-custom2" href="#">Sign up</a>
+                        <a class="nav-link nav-custom2" href="#"><p>Sign up</p></a>
                     </li>
                 </ul>
             </div>
-            
     </nav>
 
     <!--SLIDER-->
@@ -62,17 +71,17 @@
 
     <!--CONTENT-->
     <main>
-        <div class="container-fluid container-hmpg-about">
+        <div class="container-fluid py-5 px-4 container-hmpg-about">
             <div class="row">
-                <div class="col-md-5 my-5 mx-4 hmpg-about-img">
+                <div class="col-lg py-5 px-5">
                     <img src="public/images/image-8.jpg" alt="" class="img-fluid img-custom1">
                 </div>
-                <div class="col-md-5 my-5">
+                <div class="col-lg py-5 px-5">
                     <h1 class="my-5 title-about-text1">Judul 1</h1>
-                    <p class="my-5 hmpg-about-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                        sit accusantium
-                        omnis est dolores provident, laborum numquam alias? Explicabo recusandae quas error libero
-                        corrupti odit quos sed ipsum voluptate voluptatem.
+                    <p class="my-5 hmpg-about-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                        cum quis assumenda possimus
+                        repellendus tenetur consequuntur aliquam dolorem excepturi, voluptatibus ullam sed magni? Eum
+                        esse iure iusto velit? Tempore, incidunt.
                     </p>
                     <button type="button" class="btn btn-primary btn-custom1">
                         More
@@ -80,7 +89,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-5 my-5">
+                <div class="col-lg py-5 px-5">
                     <h1 class="my-5 title-about-text2">Judul 2</h1>
                     <p class="my-5 hmpg-about-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
                         cum quis assumenda possimus
@@ -88,55 +97,58 @@
                         esse iure iusto velit? Tempore, incidunt.</p>
                     <button type="button" class="btn btn-primary btn-custom2">More</button>
                 </div>
-                <div class="col-md-6 my-5 hmpg-about-img">
+                <div class="col-lg py-5 px-5">
                     <img src="public/images/image-8.jpg" alt="" class="img-fluid img-custom2">
                 </div>
             </div>
+        </div>
 
-            <div class="container-fluid container-article">
-                <div class="row">
-                    <div class="col">
-                        <div class="card-body my-5 py-4 text-center">Article</div>
+        <!--NEWS-->
+        <div class="container-fluid py-4 px-5 container-news">
+            <div class="row">
+                <div class="col-lg py-3">
+                    <div class="card-body mb-3 text-center">
+                        <p>NEWS</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="card-group">
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Accusamus provident dolorem, nulla modi soluta ut consequuntur deleniti facere
-                                        nobis nihil.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusamus provident dolorem, nulla modi soluta ut consequuntur deleniti facere
+                                    nobis nihil.</p>
                             </div>
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Accusamus ab ipsa maxime officiis vitae dolores quasi recusandae iure neque est?
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                                </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
                             </div>
-                            <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Dignissimos libero esse nemo repudiandae delectus eaque minus. Rerum ipsa
-                                        provident nam?</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                                </div>
+                        </div>
+                        <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Accusamus ab ipsa maxime officiis vitae dolores quasi recusandae iure neque est?
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Dignissimos libero esse nemo repudiandae delectus eaque minus. Rerum ipsa
+                                    provident nam?</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
                             </div>
                         </div>
                     </div>
