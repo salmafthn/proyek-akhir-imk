@@ -6,10 +6,10 @@
 main {
   background-color: #ccb6a2;
 }
-
+ 
 /*NAVBAR*/
 .navbar {
-  background: transparent;
+  background: #00000030;
   border-bottom: 2.5px solid #0000003f;
 }
 
