@@ -3,16 +3,23 @@
   padding: 0;
 }
 
+main {
+  background-color: #DBCABA;
+}
+
+.container-resto-card {
+    background-image: url('../images/banner_resto.png'); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
 
 
 /*NAVBAR*/
 .navbar {
   background: transparent;
   border-bottom: 2.5px solid #0000003f;
-}
-
-.navbar.navbar-scrolled {
-   transition: ease-in;
 }
 
 
@@ -55,7 +62,6 @@
   background-color: transparent;
 }
 
-
 .nav-item .nav-custom2 p, 
 .nav-item .nav-custom1 p {
   font-size: 15px;
@@ -78,13 +84,35 @@
 
 /*RESTO CARD*/
 .container-resto-card {
-  background-color: aqua;
+  color: #DBCABA;
 }
 
-.img-fluid .img-resto1{
-    width: 400px;
-    height: 400px;
+.text-column {
+  border-right: 2px solid #0000003f;
 }
+
+.img-resto {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn.btn-custom, 
+.btn.btn-custom:hover  {
+  background: none;
+  border: none;
+}
+
+
+.btn.btn.btn-custom img {
+  width: 50px;
+  height: auto;
+}
+
+.btn.btn.btn-custom img:hover {
+   width: 51.5px; 
+}
+
 /*FOOTER*/
 .footer{
   background: #DBCABA;
