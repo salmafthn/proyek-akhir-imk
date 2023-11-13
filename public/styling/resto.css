@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*NAVBAR*/
+.navbar {
+  background: transparent;
+  border-bottom: 2.5px solid #0000003f;
+}
+
+.navbar.navbar-scrolled {
+   transition: ease-in;
+}
+
+
+.navbar-nav:first-child p {
+  margin-left: 80px;
+  margin-top: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Raleway;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 0.3px;
+}
+
+.navbar-brand {
+  content: url('../images/ep-arrow-down.svg')
+}
+
+.navbar-nav .nav-link.dropdown-toggle::after {
+  content: none; 
+}
+
+.navbar-nav:first-child p:hover {
+  text-decoration-line: underline;
+  text-decoration-color: white;
+  font-size: 22.5px;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: #735d5748;
+  margin-top: 15px;
+}
+
+.nav-item.dropdown .dropdown-item p{
+  margin: auto;
+  text-align: center;
+}
+
+.nav-item.dropdown .dropdown-menu :hover{
+  background-color: transparent;
+}
+
+
+.nav-item .nav-custom2 p, 
+.nav-item .nav-custom1 p {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 2  0px; 
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 0.3px;
+}
+
+.nav-item .nav-custom2:hover p, 
+.nav-item .nav-custom1:hover p {
+  text-decoration-line: underline;
+  font-size: 15.5px;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+/*SLIDER*/
+
+/*RESTO CARD*/
+.container-resto-card {
+  background-color: aqua;
+}
+
+.img-fluid .img-resto1{
+    width: 400px;
+    height: 400px;
+}
+/*FOOTER*/
+.footer{
+  background: #DBCABA;
+}
