@@ -7,16 +7,19 @@
     <title>Resto</title>
 
     <link rel="stylesheet" href="public/styling/resto.css">
-    <link rel="stylesheet" href="public/styling/global.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!--OWL CAROUSEL CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" id="resto">
+<body id="resto">
 
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg py-0 my-0 fixed-top" id="navbar">
-        <div class="container-fluid px-3 mx-3">
+        <div class="container-fluid px-2 mx-2">
             <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,14 +70,24 @@
                             <p>Sign up</p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-notif" href="#">
+                        </a>
+                    </li>
                 </ul>
             </div>
     </nav>
 
+    <!--SLIDER-->
+    <div class="container-xl-12 slider">
+        <img src="/public/images/resto-slider.png" class="img-fluid" alt="">
+    </div>
+
     <!--CONTENT-->
     <main>
         <div class="container-fluid py-4 px-4 mx-auto my-auto container-resto-card">
-            <div class="card m-3 mx-auto" style="max-width: 700px;">
+
+            <div class="card m-3 mx-auto card-wrapper" style="max-width: 700px;">
                 <div class="row g-0 py-2 px-2 resto-card">
                     <div class="col-md-6 mx-auto my-auto text-column">
                         <div class="card-body">
@@ -88,19 +101,53 @@
                             <button type="button" class="btn btn-custom">
                                 <img src="public/images/icon-doublearrow.svg" alt="">
                             </button>
-                            <p class="card-text my-4"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <p class="card-text my-4"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-5 mx-auto my-auto">
-                        <img src="public/images/resto1.png" class="img-fluid img-resto" alt="...">
+                    <div class="col-md-5 mx-auto my-auto image-body">
+                        <img src="public/images/banner_resto.png" class="img-fluid img-resto" alt="...">
                     </div>
                 </div>
             </div>
 
-           
+            <div class="card m-3 mx-auto card-wrapper" style="max-width: 700px;">
+                <div class="row g-0 py-2 px-2 resto-card">
+                    <div class="col-md-6 mx-auto my-auto text-column">
+                        <div class="card-body">
+                            <h5 class="card-title my-2">RESTO 1</h5>
+                            <p class="card-text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consequatur animi officia vel sapiente ad doloremque corporis nam, dignissimos alias
+                                provident aut accusamus quos iusto aliquam adipisci fugiat ullam fugit pariatur dolore
+                                quae quasi. Repellendus vero corporis quae, odio praesentium ipsam nemo eum hic
+                                voluptate. Voluptatum, impedit quod magni sequi incidunt eveniet unde officia,
+                                repellendus, atque autem qui! Dicta voluptate fugiat similique hic quas cum sit possimus
+                                minima earum, esse sequi illum assumenda sint adipisci pariatur id ducimus a iste eos
+                                recusandae quam culpa consectetur dignissimos. Veniam repudiandae libero aut. Deleniti!
+                            </p>
+                            <button type="button" class="btn px-0 mx-0 btn-custom">
+                                <img src="public/images/icon-chatbox.svg" alt="">
+                            </button>
+                            <button type="button" class="btn btn-custom">
+                                <img src="public/images/icon-doublearrow.svg" alt="">
+                            </button>
+                            <p class="card-text my-4"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mx-auto my-auto image-body">
+                        <img src="public/images/resto-slider.png" class="img-fluid img-resto" alt="...">
+                    </div>
+                </div>
+            </div>
+
 
         </div>
-    </main>
+
+        <div class="back">
+            <a href="#" class="btn back-scroll">TEST</a>
+        </div>
+
     <!--Footer-->
     <footer class="footer">
         <div class="container">

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #ccb6a2;
+}
+ 
+/*NAVBAR*/
+.navbar {
+  background: #00000030;
+  border-bottom: 2.5px solid #0000003f;
+}
+
+.navbar.navbar-scrolled {
+   transition: ease-in;
+}
+
+
+.navbar-nav:first-child p {
+  margin-left: 80px;
+  margin-top: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Raleway;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 0.3px;
+}
+
+.navbar-brand {
+  content: url('../images/ep-arrow-down.svg')
+}
+
+.navbar-nav .nav-link.dropdown-toggle::after {
+  content: none; 
+}
+
+.navbar-nav:first-child p:hover {
+  text-decoration-line: underline;
+  text-decoration-color: white;
+  font-size: 22.5px;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: #735d5748;
+  margin-top: 15px;
+}
+
+.nav-item.dropdown .dropdown-item p{
+  margin: auto;
+  text-align: center;
+}
+
+.nav-item.dropdown .dropdown-menu :hover{
+  background-color: transparent;
+}
+
+
+.nav-item .nav-custom2 p, 
+.nav-item .nav-custom1 p {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 0.3px;
+}
+
+.nav-item .nav-custom2:hover p, 
+.nav-item .nav-custom1:hover p {
+  text-decoration-line: underline;
+  font-size: 15.5px;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+.nav-item .nav-notif {
+    display: inline-block; 
+    background-image: url('/public/images/ellipse-5.svg'); 
+    background-size: cover; 
+    width: 20px;
+    height: 20px;
+    background-position: center; 
+    text-decoration: none;
+    position: relative;
+    right: 170px;
+    top: 10px;
+}
+
+/*RESTO CARD*/
+.container-resto-card {
+    background-image: url('/public/images/resto-background.png'); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.container-resto-card .card-wrapper {
+  background: none;
+  border-color: transparent;
+}
+
+.container-resto-card .resto-card {
+  background-color: #B19687;
+  border-radius: 10px;
+}
+
+.card-body {
+  background-color: #DECEC4;;
+  border-radius: 10px;
+}
+
+.img-resto {
+ border-radius: 10px;
+  width: 320px !important;
+  height: 320px !important;
+}
+
+
+.card-title{
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #000;
+  text-align: left;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+small.text-body-secondary {
+  font-size: 11px;
+  color: #000;
+  text-align: right;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.btn.btn-custom, 
+.btn.btn-custom:hover {
+  background: none;
+  border: none;
+}
+
+.btn-custom img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.btn.btn.btn-custom img:hover {
+  width: 52%; 
+}
+
+/* BACK SCROLL BUTTON */
+.back .back-scroll {
+  display: inline-block; 
+    background-image: url('/public/images/back-scroll.svg'); 
+    background-size: cover; 
+    width: 200px !important;
+    height: 200px !important;
+    background-position: center; 
+    text-decoration: none;
+    position: fixed;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #DBCABA;
+}
