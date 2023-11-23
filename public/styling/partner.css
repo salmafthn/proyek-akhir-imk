@@ -19,7 +19,7 @@ main {
 
 
 .navbar-nav:first-child p {
-  margin-left: 80px;
+  margin-left: 45px;
   margin-top: 8px;
   color: #ffffff;
   font-weight: bold;
@@ -88,33 +88,40 @@ main {
     top: 10px;
 }
 
-/*RESTO CARD*/
-.container-resto-card {
-    background-image: url('/public/images/resto-background.png'); 
+
+/*PARTNER CARD*/
+.container-partner-card {
+    background-image: url('/public/images/partner-background.png'); 
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center;
+    background-size: cover;
 }
 
-.container-resto-card .card-wrapper {
+
+.container-partner-card .card-wrapper {
   background: none;
   border-color: transparent;
 }
 
-.container-resto-card .resto-card {
+.container-partner-card .partner-card {
   background-color: #B19687;
   border-radius: 10px;
+
 }
 
 .card-body {
   background-color: #DECEC4;;
   border-radius: 10px;
+  margin: 30px;
 }
 
-.img-resto {
- border-radius: 10px;
+.image-body .card-image {
+  border-radius: 35px;
   width: 320px !important;
-  height: 320px !important;
+  height: 320px !important; 
+  margin: auto;
+  padding: 20px;
 }
 
 
@@ -169,13 +176,17 @@ small.text-body-secondary {
 /* BACK SCROLL BUTTON */
 .back .back-scroll {
   display: inline-block; 
-    background-image: url('/public/images/back-scroll.svg'); 
-    background-size: cover; 
-    width: 200px !important;
-    height: 200px !important;
-    background-position: center; 
-    text-decoration: none;
-    position: fixed;
+  background-image: url('/public/images/back-scroll.svg'); 
+  background-size: cover; 
+  width: 50px;
+  height: 50px;
+  background-position: center; 
+  text-decoration: none;
+  position: relative;
+  bottom: 150px;
+  right: 50px;
+  float: inline-end;
+
 }
 
 /*FOOTER*/

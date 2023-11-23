@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ 
+body {
+  background-image: url(/public/images/chat-background.png);
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+main {
+ background-color: transparent;
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+/* MAIN */
+.col-md-3 {
+ background-color: #DCD0C7;
+ border-radius: 0px 20px 20px 0px;
+ height: 550px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+/* OFFCANFAS */
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+.offcanvas-btn img ,
+.back-btn img {
+  max-width: 30px;
+  height: auto;
+  margin: 10px;
+}
++
+
+.offcanvas-start,
+.offcanvas-header,
+.offcanvas-body {
+  border-radius: 0px 20px 0px 0px;
+background: #B19687;
+}
+
+
+.offcanvas-body {
+background: #877266;
+padding-left: 0px !important;
+}
+
+
+/* NAME SECTION*/
+
+.name-wrapper {
+  display: flex;
+  margin-top: 10px;
+  border-radius: 0px 20px 20px 0px;
+  background: #DCD0C7; 
+  max-height: 100px;
+}
+
+.name-wrapper:hover {
+  background: #bbb1a9;
+}
+
+.name-wrapper:hover p{
+    font-size: 20.5px;
+}
+
+.image-section {
+  display: flex;
+  align-items: center; 
+}
+
+
+.image-section p{
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+.name1-image {
+  width: 65px;
+  height: auto;
+  margin: 20px;
+}
+
+
+.name1-image {
+    width: 65px;
+    height: auto;
+    margin: 10px;
+}
+
+
+/* CHAT SECTION */
+.col-md-8 {
+  background-color: #B19687;
+  border-radius: 20px 0px 0px 20px;
+  align-items: end;
+}
