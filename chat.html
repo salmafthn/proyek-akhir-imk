@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat </title>
+    <title>Chat</title>
 
     <link rel="stylesheet" href="public/styling/chat.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
@@ -16,17 +16,17 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
-<body id="chat">
+<body>
     <!--CHAT-->
     <main>
         <div class="container-fluid m-auto chat-container">
-            <div class="chat-body">
-                <div class="row">
-                    <div class="col-md-3">
 
-                        <div class="nav-wrapper">
+            <div class="row align-items-md-start">
 
-                       
+                <div class="col-2 message-column">
+                    <div class="nav-wrapper">
+
+
                         <a class="btn back-btn" href="/index.html">
                             <img src="/public/images/back-button.png" alt="">
                         </a>
@@ -35,131 +35,170 @@
                             aria-controls="offcanvasExample">
                             <img src="/public/images/chat-icon.png" alt="">
                         </a>
-                        </div>
-
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                            aria-labelledby="offcanvasExampleLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Chat List</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                           
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama1</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama1</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama1</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama1</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama2</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama3</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama4</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama4</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama4</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="name-wrapper">
-                                    <a href="#" class="container-fluid btn p-0 name-btn">
-                                        <div class=" image-section">
-                                            <img src="/public/images/name1.png" alt="" class="name1-image">
-                                            <p>Nama4</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-
                     </div>
 
-                    <div class="col-md-8 container-fluid">
-                        <div class="chat-wrapper">
-                            adaadsawd
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Message List</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama1</p>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama1</p>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama1</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama1</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama2</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama3</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama4</p>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="name-wrapper">
+                                <a href="#" class="container-fluid btn p-0 name-btn">
+                                    <div class=" image-section">
+                                        <img src="/public/images/name1.png" alt="" class="name1-image">
+                                        <p>Nama4</p>
+                                    </div>
+                                </a>
+                            </div>
+
 
                         </div>
-
-
-
-
                     </div>
+
 
                 </div>
+
+                <div class="col-10 chat-section">
+                    <div class="chat-header">
+                        <div class="header-img">
+                            <img src="/public/images/name1.png" alt="">
+                        </div>
+                        <div class="user-info">
+                            <span>Madds</span>
+                        </div>
+                        <div class="dropdown user-dropdown">
+                            <button class="btn custom-dropdown" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="/public/images/dropdown-icon.png" alt="">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">View Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Add to group</a></li>
+                                <li><a class="dropdown-item" href="#">Block</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="chat-body">
+
+                        <div class="d-flex justify-content-start mb-4 reciever">
+                            <div class="bubble-reciever">
+                                Halo gengs
+                                <span class="msg-time-reciever">3:00 AM</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end mb-4 sender">
+                            <div class="bubble-sender">
+                                y pkbr
+                                <span class="msg-time-sender">3:00 AM</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end mb-4 sender">
+                            <div class="bubble-sender">
+                                y pkbr
+                                <span class="msg-time-sender">3:00 AM</span>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex justify-content-end mb-4 sender">
+                            <div class="bubble-sender">
+                                y pkbr
+                                <span class="msg-time-sender">3:00 AM</span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="chat-footer">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Ketik disini"
+                                aria-describedby="button-addon2">
+                            <button class="btn kirim-pesan" type="button" id="button-addon2">
+                                <img src="/public/images/send-icon.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </main>
 

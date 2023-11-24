@@ -22,33 +22,40 @@ main {
 
 
 /* MAIN */
-.col-md-3 {
+.message-column {
  background-color: #DCD0C7;
  border-radius: 0px 20px 20px 0px;
- height: 550px;
-  margin-left: 0px;
-  margin-right: 10px;
+ height: 60px;
+ margin: 20px 20px 0px 0px;
+ padding: 5px;
+ width: 170px !important;
 }
 
-/* OFFCANFAS */
+
 
 .nav-wrapper {
   display: flex;
   align-items: center;
+  
 }
+
+/* OFFCANFAS */
 .offcanvas-btn img ,
 .back-btn img {
-  max-width: 30px;
+  max-width: 25px;
   height: auto;
-  margin: 10px;
 }
-+
+
+.offcanvas-btn img {
+  margin-left: 10px;
+}
+
 
 .offcanvas-start,
 .offcanvas-header,
 .offcanvas-body {
   border-radius: 0px 20px 0px 0px;
-background: #B19687;
+  background: #B19687;
 }
 
 
@@ -96,16 +103,87 @@ padding-left: 0px !important;
 }
 
 
-.name1-image {
-    width: 65px;
+
+/* CHAT SECTION */
+.chat-section {
+  position: relative;
+  background-color: #B19687;
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 0px;
+  height: 540px;
+}
+
+/* CHAT HEADER */
+.chat-header {
+  border-radius: 20px 20px 20px 20px;
+  background: #DECEC4;
+  margin: 20px;
+  display: flex;
+  align-items: center; 
+}
+
+.header-img img {
+    margin: 20px;
+    width: 60px;
     height: auto;
-    margin: 10px;
+}
+
+.user-info {
+  margin-left: auto;
+}
+
+.user-dropdown {
+    margin-left: auto; 
+    margin-right: 20px;
 }
 
 
-/* CHAT SECTION */
-.col-md-8 {
-  background-color: #B19687;
-  border-radius: 20px 0px 0px 20px;
-  align-items: end;
+/* CHAT BODY */
+.chat-body {
+    border-radius: 20px 20px 20px 20px;
+    background: #DECEC4;
+    margin: 20px;
+    padding: 30px;
+    max-height: 300px; 
+    overflow-y: auto;
+}
+
+.msg-time-reciever {
+  position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: black;
+	font-size: 10px;
+}
+
+.msg-time-sender {
+  position: absolute;
+	right: 0;
+	bottom: -15px;
+	color: black;
+	font-size: 10px;
+} 
+
+.bubble-reciever {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  border-radius: 25px;
+  background: #79675d;
+  padding: 10px;
+  position: relative;
+}
+
+.bubble-sender {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: #A78E81;
+  padding: 10px;
+  position: relative;
+}
+
+.chat-footer {
+  margin: 20px;
 }
