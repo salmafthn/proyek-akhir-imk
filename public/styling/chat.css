@@ -15,28 +15,25 @@ body {
 
 main {
  background-color: transparent;
-   height: auto;
-   margin-top: 10px;
-   margin-bottom: 10px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
 /* MAIN */
 .message-column {
- background-color: #DCD0C7;
- border-radius: 0px 20px 20px 0px;
- height: 60px;
- margin: 20px 20px 0px 0px;
- padding: 5px;
- width: 170px !important;
+  background-color: #DCD0C7;
+  border-radius: 0px 20px 20px 0px;
+  height: 60px;
+  margin: 20px 20px 0px 0px;
+  padding: 5px;
+  width: 170px !important;
 }
-
-
 
 .nav-wrapper {
   display: flex;
   align-items: center;
-  
 }
 
 /* OFFCANFAS */
