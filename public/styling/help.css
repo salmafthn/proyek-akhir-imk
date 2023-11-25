@@ -1,8 +1,44 @@
 body {
-  background-color: #80685A;
+background: #80685A !important;
 }
 
 .faq-header {
+  display: flex;
   margin: 50px;
-
+  padding: 50px;
+  justify-content: center;
 }
+
+.faq-header h6 {
+  color: #FFF6F6;
+font-family: raleway;
+font-size: 50px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.q p{
+  margin: 20px;
+  padding: 20px;
+  background-color: #DECEC4;
+  border-radius: 30px;
+  width: 900px;
+  text-align: center;
+  color: black;
+  font-family: raleway;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: normal;
+}
+
