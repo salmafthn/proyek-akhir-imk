@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #ccb6a2;
+}
+ 
+
 /*NAVBAR*/
 .navbar {
   background: #00000030;

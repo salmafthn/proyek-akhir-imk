@@ -1,14 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  background-color: #000;
-}
-main {
- background: #B19687;
-}
 
 /* ABOUT 1*/
 
@@ -21,8 +11,9 @@ main {
   align-items: center;
 }
 
+
 .about2-row {
-  background: #CCB6A2;
+  background: #B19687;
 }
 
 .about-text1 p,
@@ -48,6 +39,9 @@ main {
   max-width: 400px;
   height: auto;
   margin: 20px;
+  position: relative;
+
+
 }
 
 .carousel-inner {
@@ -66,6 +60,8 @@ text-align: left;
 margin:  20px;
   padding: 20px;
 }
+
+
 
 .card{
   background: #80685A !important;
