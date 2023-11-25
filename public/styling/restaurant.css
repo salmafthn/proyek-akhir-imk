@@ -118,14 +118,14 @@ main {
 
 .image-body .card-image {
   border-radius: 35px;
-  width: 320px !important;
-  height: 320px !important; 
+  width: 280px !important;
+  height: 210px !important; 
   margin: auto;
   padding: 20px;
 }
 
 
-.card-title{
+.card-title h5 {
   color: #000;
   text-align: center;
   font-family: Raleway;
@@ -135,7 +135,7 @@ main {
   line-height: normal;
 }
 
-.card-text {
+.card-text p {
   font-size: 15px;
   color: #000;
   text-align: left;
