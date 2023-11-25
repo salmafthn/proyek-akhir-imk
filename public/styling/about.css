@@ -3,8 +3,11 @@
   padding: 0;
 }
 
+body {
+  background-color: #000;
+}
 main {
-  background-color: #ccb6a2;
+ background: #B19687;
 }
  
 /*NAVBAR*/
@@ -57,7 +60,6 @@ main {
   background-color: transparent;
 }
 
-
 .nav-item .nav-custom2 p, 
 .nav-item .nav-custom1 p {
   font-size: 15px;
@@ -88,4 +90,88 @@ main {
     top: 10px;
 }
 
-/* ABOUT */
+/* ABOUT 1*/
+
+.about1-row,
+.about2-row,
+.card-container {
+  margin: 20px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.about2-row {
+  background: #CCB6A2;
+}
+
+.about-text1 p,
+.about-text2 p {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin:  20px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.about-img1 img {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+}
+
+.carousel {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+}
+
+.about-text2 h2 {
+color: #000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Raleway;
+font-size: 25px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+margin:  20px;
+  padding: 20px;
+}
+
+.card{
+  background: #80685A !important;
+  border-radius: 40px !important;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-body {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+.card-title {
+  color: #000;
+font-family: Raleway;
+font-size: 20px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+
+.card-text {
+  color: #000;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}

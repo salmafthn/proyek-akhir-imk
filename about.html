@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <main>
         <!--NAVBAR-->
         <nav class="navbar navbar-expand-lg py-0 my-0 fixed-top" id="navbar">
             <div class="container-fluid px-2 mx-2">
@@ -74,26 +74,29 @@
         </nav>
         
         <!--SLIDER-->
-        <div class="container-xl-12 slider">
+        <div class="container-fluid slider">
             <img src="/public/images/slider-image.png" class="img-fluid slider-image" alt="">
         </div>
 
-        <!--MOTTO-->
-        <div class="container-md">
-            <div class="row">
-                <div class="col-md-6 about-text1">
+        <!--ABOUT 1-->
+        <div class="container-xl about-container">
+
+            <div class="row about1-row">
+                <div class="col-xl-6 about-text1">
                     <div class="tujuan">
                         <p>Kami berkomitmen untuk menghubungkan mitra-mitra kami, membagikan informasi yang up to date, tetapi juga berperan aktif
                         dalam mengatasi masalah pembuangan makanan dan keberlanjutan lingkungan. Kami percaya bahwa layanan yang kami berikan
                         dapat membawa gerakan baru untuk mengurangi limbah makanan.</p>
                     </div>
                 </div>
-                <div class="col-md-6 about-img1">
-                    <img src="/public/images/person5.png" alt="">
+                <div class="col-xl-6 about-img1">
+                    <img src="/public/images/resto2.png" alt="">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 about-img2">
+            
+            <!-- ABOUT 2 -->
+            <div class="row about2-row">
+                <div class="col-xl-6 about-img2">
 
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -127,23 +130,26 @@
                         </button>
                     </div>
 
-                        <div class="col-md-6 about-text2">
-                            <h2>One Step Towards Bigger Step</h2>
-                            <p>Visi Kami
-                            Kami ingin mengurangi pembuangan makanan, karena kami percaya bahwa makanan adalah hak dasar dan tidak seharusnya
+                    </div>
+                    <div class="col-xl-6 about-text2">
+                        <h2>One Step Towards Bigger Step</h2>
+                        <p>Visi Kami
+                            Kami ingin mengurangi pembuangan makanan, karena kami percaya bahwa makanan adalah hak dasar dan tidak
+                            seharusnya
                             terbuang sia-sia.
-                            
+                    
                             Misi Kami
                             Untuk mencapai visi kami, kami telah menyusun rencana amal yang kuat. Setiap hari, kami berkomitmen untuk
-                            mengatasi masalah kelebihan makanan dengan mengintegrasikan berbagai komunitas dan restoran untuk memastikan bahwa
+                            mengatasi masalah kelebihan makanan dengan mengintegrasikan berbagai komunitas dan restoran untuk memastikan
+                            bahwa
                             makanan yang tersisa diarahkan kepada mereka yang membutuhkan. Dengan langkah-langkah ini, kami berusaha untuk
                             memastikan bahwa makanan yang tidak terjual tidak berakhir di tempat pembuangan sampah.</p>
-                        </div>
                     </div>
                 </div>
-            </div>7
+            </div>
 
-            <div class="container-md">
+            <!-- ABOUT US -->
+            <div class="container-md card-container">
             <div class="card-group">
 
                 <div class="card">
@@ -183,6 +189,7 @@
             </div>
             
         </div>
+</main>
 
         <!--Footer-->
         <footer class="footer">
