@@ -41,7 +41,7 @@ main {
 }
 
 .slider-link:hover .slider-image {
-  filter: blur(5px);
+  filter: blur(2px);
 }
 
 
