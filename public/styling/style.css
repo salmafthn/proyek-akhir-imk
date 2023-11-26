@@ -93,3 +93,20 @@ main {
 .footer{
   background: #DBCABA;
 }
+
+
+/* BACK SCROLL BUTTON */
+.back .back-scroll {
+  display: inline-block; 
+  background-image: url('/public/images/back-scroll.svg'); 
+  background-size: cover; 
+  width: 50px;
+  height: 50px;
+  background-position: center; 
+  text-decoration: none;
+  position: relative;
+  bottom: 150px;
+  right: 50px;
+  float: inline-end;
+
+}

@@ -4,36 +4,36 @@ background: #80685A !important;
 
 .faq-header {
   display: flex;
-  margin: 50px;
-  padding: 50px;
+  margin: 20px;
+  padding: 20px;
   justify-content: center;
 }
 
 .faq-header h6 {
-  color: #FFF6F6;
+color: #FFF6F6;
 font-family: raleway;
 font-size: 50px;
 font-style: italic;
-font-weight: 300;
+font-weight: 600;
 line-height: normal;
 }
 
 .faq {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    margin: 50px;
-    padding: 40px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-}
-.q p{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
   margin: 20px;
   padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.q p{
+  margin: 10px;
+  padding: 10px;
   background-color: #DECEC4;
   border-radius: 30px;
-  width: 900px;
+  width: 100%;
   text-align: center;
   color: black;
   font-family: raleway;
@@ -42,3 +42,37 @@ line-height: normal;
   line-height: normal;
 }
 
+/* FOOTER */
+.help-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn img,
+.suggestion-btn img {
+  width: 30px;
+  height: auto;
+}
+
+.contact-btn,
+.suggestion-btn {
+  border-radius: 25px;
+  background: #846A5C;
+  margin: 20px;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  font: raleway;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.contact-btn:hover,
+.suggestion-btn:hover {
+  text-decoration: none; 
+    background: #68544a;
+}
+
+.text-center {
+  margin-top: 10px;
+}
