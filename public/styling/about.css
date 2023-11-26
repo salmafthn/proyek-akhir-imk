@@ -72,6 +72,7 @@ margin:  20px;
     margin: 10px;
     padding: 10px;
     width: auto;
+      text-align: center;
 }
 
 .card-title {
@@ -92,4 +93,13 @@ text-align: center;
   font-weight: 400;
   line-height: normal;
   text-align: center;
+}
+.instagram-button img {
+    display: inline-block;
+    margin-top: 10px; 
+    width: 30px;
+}
+
+.instagram-button img:hover {
+  width: 31px;
 }
